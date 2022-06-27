@@ -1,7 +1,7 @@
 import { Page2 } from "../Page2";
-import { URLParameter } from "../URLParameter";
+import { UrlParameter } from "../UrlParameter";
 
-export const page1Routes = [
+export const page2Routes = [
   {
     path: "/",
     exact: true,
@@ -10,6 +10,6 @@ export const page1Routes = [
   {
     path: "/:id",
     exact: false,
-    children: <URLParameter />
+    children: <UrlParameter />
   }
 ];
